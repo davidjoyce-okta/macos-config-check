@@ -4,15 +4,6 @@ Checks your OSX machine against various hardened configuration settings.
 
 You can specify your own preferred configuration baseline by supplying your own [Hjson](https://hjson.org/) file instead of the provided one.
 
-## Disclaimer
-
-The authors of this tool are not responsible if running it breaks stuff; disabling features of your operating system and applications may disrupt normal functionality.
-
-Once applied, the security configurations do not not guarantee security. You will still need to make good decisions in order to stay secure. The configurations will generally not help you if your computer has been previously compromised.
-
-Configurations come from sites like:
-* [drduh's OS X Security and Privacy Guide](https://github.com/drduh/OS-X-Security-and-Privacy-Guide)
-
 ## Usage
 
 **You should download and run this application once for each OS X user account you have on your machine.** Each user may be configured differently, and so each should be audited.
@@ -312,7 +303,3 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting pull requests t
 ## Similar Projects
 
 * https://github.com/SummitRoute/osxlockdown
-
-## Contributors
-
-* [Kristov Atlas](https://twitter.com/kristovatlas/) (maintainer)
